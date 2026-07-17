@@ -5,6 +5,8 @@ import { assets, dummyShowsData } from '../assets/assets'
 import { fetchMovies } from '../lib/data'
 import Login from './Login/login.jsx'
 
+//add nav links
+
 const Navbar = ({ hasClerkAuth = false }) => {
   const navigate = useNavigate()
   const [isOpen, setIsOpen] = React.useState(false)
@@ -26,7 +28,7 @@ const Navbar = ({ hasClerkAuth = false }) => {
         if (active && data.length > 0) setMovies(data)
       })
       .catch((err) => {
-        console.error('Failed to load search movies', err)
+        console.error('Failed to load search movies item', err)
       })
 
     return () => {
