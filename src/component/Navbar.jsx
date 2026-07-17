@@ -223,3 +223,4 @@ md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${i
 }
 
 export default Navbar
+//create nav component
