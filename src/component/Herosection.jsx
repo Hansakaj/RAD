@@ -23,7 +23,7 @@ export default function HeroSection () {
         </h1>
 
         <div className="hero-reveal hero-reveal-2 flex flex-wrap items-center gap-x-6 gap-y-3 text-gray-300">
-          <span>Action | Adventure | Sci-Fi</span>
+          <span>Action | Adventures | Sci-Fi</span>
 
           <div className="flex items-center gap-2">
             <Calendar className="h-4.5 w-4.5" />
@@ -45,7 +45,7 @@ export default function HeroSection () {
           onClick={() => navigate('/movie')}
           className="hero-reveal hero-reveal-4 flex items-center gap-1 rounded-full bg-red-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-red-600 cursor-pointer"
         >
-          Explore Movies
+          Explore All Movies
           <ArrowRight className="h-5 w-5" />
         </button>
       </div>
