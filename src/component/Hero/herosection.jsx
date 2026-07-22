@@ -11,7 +11,7 @@ export default function HeroSection() {
       </h1>
 
       <div className="flex items-center gap-4 text-gray-300">
-        <span>Action | Adventure | Sci-Fi</span>
+        <span>Action | Adventures | Sci-Fi</span>
 
         <div className="flex items-center gap-2">
           <Calendar className="w-4 h-4" />
