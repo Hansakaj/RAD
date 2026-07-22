@@ -11,6 +11,7 @@ import { Toaster } from 'react-hot-toast'
 import Home from './pages/home.jsx'
 import AdminConsole from './pages/admin/AdminConsole.jsx'
 
+
 const App = ({ hasClerkAuth = false }) => {
   return (
     <>
@@ -37,6 +38,7 @@ const App = ({ hasClerkAuth = false }) => {
   );
 
 }
+
 //edit app
 
 export default App
