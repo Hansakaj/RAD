@@ -1,7 +1,7 @@
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import backgroundImage from '../assets/iN41Ccw4DctL8npfmYg1j5Tr1eb.webp'
 import { useNavigate } from 'react-router-dom'
-
+//Create hero section layout
 
 export default function HeroSection () {
 
