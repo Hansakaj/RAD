@@ -218,6 +218,7 @@ md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${i
 
         <Login hasClerkAuth={hasClerkAuth} />
       </div>
+      //Refactor navigation components
 
       <Menu className='w-8 h-8 cursor-pointer md:hidden' onClick={() => setIsOpen(!isOpen)} />
     </div>
